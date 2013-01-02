@@ -1,0 +1,33 @@
+	ul.actions input {
+	
+	display: block;
+	border-radius: 10px;
+	outline: none;
+	padding: 10px;
+	background-color: #aaa;
+	color: #fff;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 100%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border:0px none;
+	text-align:left; /* to keep consistent with buttons of completed.html */
+	cursor : pointer;
+	
+	}
+	
+	ul.actions input:focus {
+	border:2px dotted black;
+	
+	}
+	
+	ul.actions input.submit {
+	
+	background-color: #6ba144;
+	
+	
+	}
